@@ -6,6 +6,7 @@ function MakeArray(n) {
   }
 }
 
+
 //Initialize Days of Week Array
 days = new MakeArray(7);
 days[0] = "Saturday"
@@ -31,6 +32,7 @@ months[10] = "October"
 months[11] = "November"
 months[12] = "December"
 
+
 //Day of Week Function
 function compute(form) {
 
@@ -42,16 +44,16 @@ function compute(form) {
   var val1 = parseInt(form.day.value, 10)
 
   if ((val1 < 0) || (val1 > 31)) {
-    alert("Day is out of range")
+    alert("Invalid Day, can't be greater than 31 😑😑")
   }
   var val2 = parseInt(form.month.value, 10)
   if ((val2 < 0) || (val2 > 12)) {
-    alert("Month is out of range")
+    alert("Invalid month, can't be greater than 12 😑😑")
   }
   var val2x = parseInt(form.month.value, 10)
   var val3 = parseInt(form.year.value, 10)
-  if (val3 < 1900) {
-    alert("Please enter a valid year!")
+  if (val3 < 1000) {
+    alert("You ought to be dead dude! 👎👻")
   }
   if (val2 == 1) {
     val2x = 13;
