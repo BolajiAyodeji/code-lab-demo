@@ -1,4 +1,4 @@
-﻿<!DOCtype html>
+﻿<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -91,22 +91,36 @@
 
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">Complete Day of Birth</span>
+                            <span class="input-group-text btn btn-primary" id="basic-addon1">Complete Day of Birth</span>
                         </div>
-                        <input type="text" name="result1" class="form-control" aria-describedby="basic-addon1">
+                        <input id="result" type="text" name="result1" class="form-control" aria-describedby="basic-addon1"
+                            readonly>
                     </div>
 
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">Final Result</span>
+                            <span class="input-group-text btn btn-primary" id="basic-addon1">Final Result</span>
                         </div>
-                        <input type="text" name="result2" class="form-control" aria-describedby="basic-addon1">
+                        <input id="result" type="text" name="result2" class="form-control" aria-describedby="basic-addon1"
+                            readonly>
                     </div>
             </form>
         </div>
     </div>
 
-    <script src="js/app.js">
+    <footer>
+        <div class="alert" style="background-color:#ddd;" role="alert">
+            <hr>
+            <p class="mb-0 text-center">Developed by; <a href="https://bolajiayodeji.github.io" target="_blank">Bolaji
+                    Ayodeji</a></p>
+            <p class="mb-0 text-center">Source code: <a href="https://github.com/bolajiayodeji/TodoList-App" target="_blank">Github</a>
+                || <a href="https://codepen.io/iambolajiayo/pen/XxPGjo" target="_blank">Codepen</a></p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</html>
 
 
 
@@ -122,7 +136,7 @@
 
 
 
-    </script>
+</script>
 
 </body>
 
